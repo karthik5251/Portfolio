@@ -145,8 +145,8 @@
 
   <section class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:karthik@example.com">karthik@example.com</a></p>
-    <p>LinkedIn: <a href="#">https://www.linkedin.com/in/avadootha-karthik-7ba73b342</a></p>
+    <p>Email: <a href="mailto:avadoothakarthik7@gmail.com">2403a51364@sru.edu.in</a></p>
+    <p>LinkedIn: <a href="#"https://www.linkedin.com/in/avadootha-karthik-7ba73b342</a></p>
     <p>GitHub: <a href="#">github.com/a-karthik</a></p>
   </section>
 
