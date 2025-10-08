@@ -145,8 +145,6 @@
     <h2>Projects</h2>
     <ul>
       <li><b>Portfolio Website</b> — Designed a personal website using HTML, CSS, and JavaScript.</li>
-      <li><b>Student Management System</b> — Created a system to manage student records using Python.</li>
-      <li><b>IoT Smart Home Prototype</b> — Developed a model for home automation using Arduino.</li>
     </ul>
   </section>
 
