@@ -147,7 +147,7 @@
     <h2>Contact</h2>
     <p>Email: <a href="mailto:avadoothakarthik7@example.com">avadoothakarthik7@example.com</a></p>
     <p>LinkedIn: <a href="#">https://www.linkedin.com/in/avadootha-karthik-7ba73b342</a></p>
-    <p>GitHub: <a href="#">github.com/a-karthik</a></p>
+    <p>GitHub: <a href="#">https://github.com/karthik5251/Portfolio</a></p>
   </section>
 
   <footer>
