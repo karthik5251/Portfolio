@@ -1,4 +1,3 @@
-# Portfolio
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A. Karthik | Portfolio</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
     * {
       margin: 0;
       padding: 0;
@@ -19,7 +20,6 @@
     }
 
     header {
-      background: #6a11cb;
       background: linear-gradient(90deg, #2575fc, #6a11cb);
       color: white;
       padding: 40px 0;
@@ -28,7 +28,7 @@
     }
 
     header h1 {
-      font-size: 2.5em;
+      font-size: 2.8em;
       letter-spacing: 2px;
     }
 
@@ -58,9 +58,16 @@
     ul {
       list-style: none;
       line-height: 1.8;
+      padding-left: 0;
     }
 
-    .skills span {
+    ul li::before {
+      content: "🎯 ";
+      margin-right: 8px;
+      color: #2575fc;
+    }
+
+    .skills span, .hobbies span {
       display: inline-block;
       background: #2575fc;
       color: white;
@@ -71,7 +78,7 @@
       transition: 0.3s;
     }
 
-    .skills span:hover {
+    .skills span:hover, .hobbies span:hover {
       background: #6a11cb;
       transform: scale(1.1);
     }
@@ -101,7 +108,7 @@
 
   <header>
     <h1>A. Karthik</h1>
-    <p>B.Tech Student | Aspiring Software Engineer</p>
+    <p>🎓 B.Tech Student | 💻 Aspiring Software Engineer</p>
   </header>
 
   <section>
@@ -138,20 +145,30 @@
     <h2>Projects</h2>
     <ul>
       <li><b>Portfolio Website</b> — Designed a personal website using HTML, CSS, and JavaScript.</li>
-      <li><b>Student Management System</b> — Created a simple system to manage student records using Python.</li>
-      <li><b>IoT Smart Home Prototype</b> — Developed a model for smart home automation using Arduino.</li>
+      <li><b>Student Management System</b> — Created a system to manage student records using Python.</li>
+      <li><b>IoT Smart Home Prototype</b> — Developed a model for home automation using Arduino.</li>
     </ul>
+  </section>
+
+  <section>
+    <h2>Hobbies</h2>
+    <div class="hobbies">
+      <span>📷 Photography</span>
+      <span>🏏 Playing Cricket</span>
+      <span>📚 Learning New Skills</span>
+      <span>🎮 Gaming</span>
+    </div>
   </section>
 
   <section class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:avadoothakarthik7@gmail.com">avadoothakarthik7@example.com</a></p>
-    <p>LinkedIn: <a href="#">https://www.linkedin.com/in/avadootha-karthik-7ba73b342</a></p>
-    <p>GitHub: <a href="#">https://github.com/karthik5251/Portfolio</a></p>
+    <p>Email: <a href="mailto:avadoothakarthik7@gmail.com">avadoothakarthik7@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/avadootha-karthik-7ba73b342" target="_blank">linkedin.com/in/avadootha-karthik</a></p>
+    <p>GitHub: <a href="https://github.com/karthik5251/Portfolio" target="_blank">github.com/karthik5251</a></p>
   </section>
 
   <footer>
-    <p>© 2025 A. Karthik | Designed with 💜 and HTML</p>
+    <p>© 2025 A. Karthik | Designed with 💜 using HTML & CSS</p>
   </footer>
 
 </body>
